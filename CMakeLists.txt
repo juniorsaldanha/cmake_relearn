@@ -28,4 +28,4 @@ include_directories(
 )
 
 # name the executable to be created and the source files to use
-add_executable(main ${CPP_SOURCES})
+add_executable(${PROJECT_NAME} ${CPP_SOURCES})
