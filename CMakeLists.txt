@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.21)
 
 # project name
-project(cmake_relearn)
+project(cmake_relearn VERSION 1.2.3)
 
 # use c++ 17 standard
 set(CMAKE_CXX_STANDARD 17)
@@ -24,7 +24,6 @@ file(GLOB CPP_SOURCES
 # specify the header files that should be included
 include_directories(
   "${PROJECT_SOURCE_DIR}/src"
-  "${PROJECT_SOURCE_DIR}/include"
 )
 
 # name the executable to be created and the source files to use
