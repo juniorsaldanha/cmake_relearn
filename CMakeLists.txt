@@ -9,12 +9,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # any flags that shoul be passed to the compiler
-# 1. -03: optimization level 3
-# 2. -Wall: enable all warnings
-# 3. -Wextra: enable extra warnings
-# 4. -Werror: treat warnings as errors
-# 5. -Wpedantic: enable pedantic warnings
-set(CMAKE_CXX_FLAGS "-03 -Wall -Wextra -Werror -Wpedantic")
+# 1. -Wall: enable all warnings
+# 2. -Wextra: enable extra warnings
+# 3. -Werror: treat warnings as errors
+# 4. -Wpedantic: enable pedantic warnings
+set(CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -Wpedantic")
 
 # specify the non-header source files that should be compiled
 file(GLOB CPP_SOURCES
